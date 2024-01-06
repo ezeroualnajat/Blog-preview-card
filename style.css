@@ -13,3 +13,84 @@ body {
     align-items: center;
 }
 /* [ END ] Main Rules */
+
+/* [ START ] Main Section */
+main {
+    padding: 1.5rem;
+    background-color: #FFF;
+    border-radius: 1.25rem;
+    border: 1px solid #111;
+    box-shadow: 8px 8px 0px 0px #000;
+}
+main article {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
+
+/* [ START ] Header */
+main article header {
+    height: 200px;
+}
+main article header img {
+    height: 200px;
+    width: 336px;
+    border-radius: 10px;
+}
+/* [ END ] Header */
+
+/* [ START ] Section */
+main article section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.75rem;
+}
+main article section span {
+    width: 82px;
+    padding: 4px 12px;
+    background-color: #F4D04E;
+    border-radius: 4px;
+    color: #111;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 21px;
+}
+main article section p {
+    color: var(--Black, #111);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+main article section h1 {
+    color: var(--Black, #111);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+}
+main article section h2 {
+    max-width: 336px;
+    color: var(--Grey, #7F7F7F);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+/* [ END ] Section */
+
+/* [ START ] Footer */
+main article footer {
+    display: flex;
+    column-gap: 12px;
+}
+main article footer img {
+    width: 2rem;
+    height: 2rem;
+}
+main article footer p {
+    align-self: center;
+    color: var(--Black, #111);
+    font-size: 14px;
+    font-weight: 800;
+}
+/* [ START ] Footer */
+
+/* [ END ] Main Section */
