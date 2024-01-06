@@ -24,7 +24,7 @@ main {
 }
 @media screen and (max-width: 375px) {
     main {
-        width: 326px;
+        width: 20.375rem;
     }
 }
 main article {
@@ -34,16 +34,16 @@ main article {
 }
 /* [ START ] Header */
 main article header {
-    height: 200px;
+    height: 12.5rem;
 }
-main article img {
-    width: 336px;
-    border-radius: 10px;
+main article header img {
+    height: 12.5rem;
+    width: 21rem;
+    border-radius: 0.625rem;
 }
 @media screen and (max-width: 375px) {
     main article header img {
-        width: 279px;
-        height: 200px;
+        width: 17.438rem;
     }
 }
 /* [ END ] Header */
@@ -55,57 +55,57 @@ main article section {
     row-gap: 0.75rem;
 }
 main article section span {
-    width: 82px;
-    padding: 4px 12px;
+    width: 5.125rem;
+    padding: 0.25rem 0.75rem;
     background-color: #F4D04E;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     color: #111;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 800;
-    line-height: 21px;
+    line-height: 1.5em;
 }
 @media screen and (max-width: 375px) {
     main article section span {
-        width: 73px;
-        font-size: 12px;
-        line-height: 18px;
+        width: 4.563rem;
+        font-size: 0.75rem;
+        line-height: 1.5em;
     }
 }
 main article section p {
     color: var(--Black, #111);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
-    line-height: 21px;
+    line-height: 1.5em;
 }
 @media screen and (max-width: 375px) {
     main article section p {
-        font-size: 12px;
-        line-height: 18px;
+        font-size: 0.75rem;
+        line-height: 1.5em;
     }
 }
 main article section h1 {
     color: var(--Black, #111);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 800;
-    line-height: 36px;
+    line-height: 1.5em;
 }
 @media screen and (max-width: 375px) {
     main article section h1 {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 1.25rem;
+        line-height: 1.5em;
     }
 }
 main article section h2 {
-    max-width: 336px;
+    max-width: 21rem;
     color: var(--Grey, #7F7F7F);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5em;
 }
 @media screen and (max-width: 375px) {
     main article section h2 {
-        font-size: 14px;
-        line-height: 21px;
+        font-size: 0.875rem;
+        line-height: 1.4em;
     }
 }
 /* [ END ] Section */
@@ -113,7 +113,7 @@ main article section h2 {
 /* [ START ] Footer */
 main article footer {
     display: flex;
-    column-gap: 12px;
+    column-gap: 0.75rem;
 }
 main article footer img {
     width: 2rem;
@@ -122,7 +122,7 @@ main article footer img {
 main article footer p {
     align-self: center;
     color: var(--Black, #111);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 800;
 }
 /* [ START ] Footer */
