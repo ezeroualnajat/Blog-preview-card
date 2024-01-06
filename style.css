@@ -22,20 +22,29 @@ main {
     border: 1px solid #111;
     box-shadow: 8px 8px 0px 0px #000;
 }
+@media screen and (max-width: 375px) {
+    main {
+        width: 326px;
+    }
+}
 main article {
     display: flex;
     flex-direction: column;
     row-gap: 1.5rem;
 }
-
 /* [ START ] Header */
 main article header {
     height: 200px;
 }
-main article header img {
-    height: 200px;
+main article img {
     width: 336px;
     border-radius: 10px;
+}
+@media screen and (max-width: 375px) {
+    main article header img {
+        width: 279px;
+        height: 200px;
+    }
 }
 /* [ END ] Header */
 
@@ -55,11 +64,24 @@ main article section span {
     font-weight: 800;
     line-height: 21px;
 }
+@media screen and (max-width: 375px) {
+    main article section span {
+        width: 73px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
 main article section p {
     color: var(--Black, #111);
     font-size: 14px;
     font-weight: 500;
     line-height: 21px;
+}
+@media screen and (max-width: 375px) {
+    main article section p {
+        font-size: 12px;
+        line-height: 18px;
+    }
 }
 main article section h1 {
     color: var(--Black, #111);
@@ -67,12 +89,24 @@ main article section h1 {
     font-weight: 800;
     line-height: 36px;
 }
+@media screen and (max-width: 375px) {
+    main article section h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
 main article section h2 {
     max-width: 336px;
     color: var(--Grey, #7F7F7F);
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+}
+@media screen and (max-width: 375px) {
+    main article section h2 {
+        font-size: 14px;
+        line-height: 21px;
+    }
 }
 /* [ END ] Section */
 
