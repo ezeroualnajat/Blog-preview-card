@@ -62,37 +62,37 @@ main article section span {
     color: #111;
     font-size: 0.875rem;
     font-weight: 800;
-    line-height: 1.5em;
+    line-height: 1.5;
 }
 @media screen and (max-width: 375px) {
     main article section span {
         width: 4.563rem;
         font-size: 0.75rem;
-        line-height: 1.5em;
+        line-height: 1.5;
     }
 }
 main article section p {
     color: var(--Black, #111);
     font-size: 0.875rem;
     font-weight: 500;
-    line-height: 1.5em;
+    line-height: 1.5;
 }
 @media screen and (max-width: 375px) {
     main article section p {
         font-size: 0.75rem;
-        line-height: 1.5em;
+        line-height: 1.5;
     }
 }
 main article section h1 {
     color: var(--Black, #111);
     font-size: 1.5rem;
     font-weight: 800;
-    line-height: 1.5em;
+    line-height: 1.5;
 }
 @media screen and (max-width: 375px) {
     main article section h1 {
         font-size: 1.25rem;
-        line-height: 1.5em;
+        line-height: 1.5;
     }
 }
 main article section h2 {
@@ -100,12 +100,12 @@ main article section h2 {
     color: var(--Grey, #7F7F7F);
     font-size: 1rem;
     font-weight: 500;
-    line-height: 1.5em;
+    line-height: 1.5;
 }
 @media screen and (max-width: 375px) {
     main article section h2 {
         font-size: 0.875rem;
-        line-height: 1.4em;
+        line-height: 1.4;
     }
 }
 /* [ END ] Section */
