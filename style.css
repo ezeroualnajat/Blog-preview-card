@@ -1,129 +1,127 @@
 /* [ START ] Main Rules */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 body {
-    min-height: 100dvh;
-    font-family: 'Figtree', sans-serif;
-    background-color: #F4D04E;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	min-height: 100dvh;
+	font-family: 'Figtree', sans-serif;
+	background-color: #f4d04e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 1.5rem;
+	line-height: 1.5;
 }
 /* [ END ] Main Rules */
 
 /* [ START ] Main Section */
 main {
-    padding: 1.5rem;
-    background-color: #FFF;
-    border-radius: 1.25rem;
-    border: 1px solid #111;
-    box-shadow: 8px 8px 0px 0px #000;
+	max-width: 24rem;
+	padding: 1.438rem;
+	background-color: #fff;
+	border-radius: 1.25rem;
+	border: 1px solid #111;
+	box-shadow: 8px 8px 0px 0px #000;
 }
-@media screen and (max-width: 375px) {
-    main {
-        width: 20.375rem;
-    }
+@media screen and (max-width: 376px) {
+	main {
+		max-width: 100%;
+	}
 }
 main article {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	row-gap: 1.5rem;
 }
 /* [ START ] Header */
 main article header {
-    height: 12.5rem;
+	overflow: hidden;
+	border-radius: 0.625rem;
+	display: flex;
+	justify-content: center;
 }
 main article header img {
-    height: 12.5rem;
-    width: 21rem;
-    border-radius: 0.625rem;
-}
-@media screen and (max-width: 375px) {
-    main article header img {
-        width: 17.438rem;
-    }
+	display: block;
+	min-width: max-content;
 }
 /* [ END ] Header */
 
 /* [ START ] Section */
 main article section {
-    display: flex;
-    flex-direction: column;
-    row-gap: 0.75rem;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	row-gap: 0.75rem;
 }
 main article section span {
-    width: 5.125rem;
-    padding: 0.25rem 0.75rem;
-    background-color: #F4D04E;
-    border-radius: 0.25rem;
-    color: #111;
-    font-size: 0.875rem;
-    font-weight: 800;
-    line-height: 1.5;
+	padding: 0.25rem 0.75rem;
+	background-color: #f4d04e;
+	border-radius: 0.25rem;
+	color: #111;
+	font-size: 0.875rem;
+	font-weight: 800;
 }
-@media screen and (max-width: 375px) {
-    main article section span {
-        width: 4.563rem;
-        font-size: 0.75rem;
-        line-height: 1.5;
-    }
+@media screen and (max-width: 376px) {
+	main article section span {
+		font-size: 0.75rem;
+	}
 }
-main article section p {
-    color: var(--Black, #111);
-    font-size: 0.875rem;
-    font-weight: 500;
-    line-height: 1.5;
+main article section p:first-of-type {
+	color: var(--Black, #111);
+	font-size: 0.875rem;
+	font-weight: 500;
 }
-@media screen and (max-width: 375px) {
-    main article section p {
-        font-size: 0.75rem;
-        line-height: 1.5;
-    }
+@media screen and (max-width: 376px) {
+	main article section p:first-of-type {
+		font-size: 0.75rem;
+	}
 }
 main article section h1 {
-    color: var(--Black, #111);
-    font-size: 1.5rem;
-    font-weight: 800;
-    line-height: 1.5;
+	color: var(--Black, #111);
+	font-size: 1.5rem;
+	font-weight: 800;
 }
-@media screen and (max-width: 375px) {
-    main article section h1 {
-        font-size: 1.25rem;
-        line-height: 1.5;
-    }
+main article section h1:hover {
+	transition: color 0.2s ease-in-out;
+	color: #f4d04e;
+	cursor: pointer;
 }
-main article section h2 {
-    max-width: 21rem;
-    color: var(--Grey, #7F7F7F);
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.5;
+@media screen and (max-width: 376px) {
+	main article section h1 {
+		font-size: 1.25rem;
+	}
 }
-@media screen and (max-width: 375px) {
-    main article section h2 {
-        font-size: 0.875rem;
-        line-height: 1.4;
-    }
+main article section p:last-of-type {
+	color: var(--Grey, #7f7f7f);
+	font-weight: 500;
+}
+@media screen and (max-width: 376px) {
+	main article section p:last-of-type {
+		font-size: 0.875rem;
+	}
 }
 /* [ END ] Section */
 
 /* [ START ] Footer */
 main article footer {
-    display: flex;
-    column-gap: 0.75rem;
+	display: flex;
+	column-gap: 0.75rem;
 }
-main article footer img {
-    width: 2rem;
-    height: 2rem;
+main article footer div {
+	overflow: hidden;
+	width: 2rem;
+	height: 2rem;
+}
+main article footer div img {
+	max-width: 100%;
 }
 main article footer p {
-    align-self: center;
-    color: var(--Black, #111);
-    font-size: 0.875rem;
-    font-weight: 800;
+	align-self: center;
+	color: #111;
+	font-size: 0.875rem;
+	font-weight: 800;
 }
 /* [ START ] Footer */
 

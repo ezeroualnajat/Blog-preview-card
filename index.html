@@ -1,32 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap" rel="stylesheet">
-    <title>Blog preview</title>
-</head>
-<body>
-    <main>
-        <article>
-            <header>
-                <img src="./illustration-article.svg">
-            </header>
-            <section>
-                <span>Learning</span>
-                <p>Published 21 Dec 2023</p>
-                <h1>HTML & CSS foundations</h1>
-                <h2>These languages are the backbone of every website, defining structure, content, and presentation.</h2>
-            </section>
-            <footer>
-                <img src="./images/image-avatar.webp" alt="Avatar">
-                <p>Greg Hooper</p>
-            </footer>
-        </article>
-    </main>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="This HTML & CSS-only challenge is a perfect project for beginners getting up to speed with HTML and CSS fundamentals, like HTML structure and the box model."
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="shortcut icon"
+			href="./images/favicon-32x32.png"
+			type="image/x-icon"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Blog preview</title>
+	</head>
+	<body>
+		<main>
+			<article>
+				<header>
+					<img
+						src="./illustration-article.svg"
+						alt="HTML & CSS foundations"
+						title="HTML & CSS foundations"
+					/>
+				</header>
+				<section>
+					<span>Learning</span>
+					<p>Published 21 Dec 2023</p>
+					<h1>HTML & CSS foundations</h1>
+					<p>
+						These languages are the backbone of every website,
+						defining structure, content, and presentation.
+					</p>
+				</section>
+				<footer>
+					<div>
+						<img
+							srcset="
+								./images/image-avatar.webp 1x,
+								./images/image-avatar.webp 2x
+							"
+							alt="Greg Hooper"
+							title="Greg Hooper"
+						/>
+					</div>
+					<p>Greg Hooper</p>
+				</footer>
+			</article>
+		</main>
+	</body>
 </html>
