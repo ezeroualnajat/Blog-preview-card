@@ -111,6 +111,7 @@ main article footer {
 }
 main article footer div {
 	overflow: hidden;
+	border-radius: 50%;
 	width: 2rem;
 	height: 2rem;
 }
