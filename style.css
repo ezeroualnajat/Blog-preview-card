@@ -69,7 +69,7 @@ main article section span {
 	}
 }
 main article section p:first-of-type {
-	color: var(--Black, #111);
+	color: #111;
 	font-size: 0.875rem;
 	font-weight: 500;
 }
@@ -79,7 +79,7 @@ main article section p:first-of-type {
 	}
 }
 main article section h1 {
-	color: var(--Black, #111);
+	color: #111;
 	font-size: 1.5rem;
 	font-weight: 800;
 }
@@ -94,7 +94,7 @@ main article section h1:hover {
 	}
 }
 main article section p:last-of-type {
-	color: var(--Grey, #7f7f7f);
+	color: #767575;
 	font-weight: 500;
 }
 @media screen and (max-width: 376px) {
